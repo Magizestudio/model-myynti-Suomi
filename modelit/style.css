@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #2e2e2e;
+}
+
+.top_bar {
+    width: 202.7vh;
+    height: 4vh;
+    background-color: #1c1c1c;
+}
+
+a {
+    font-family: sans-serif;
+    border: 0;
+    outline: none;
+    color: transparent;
+    margin: 0;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-size: 3vh;
+    color: white;
+    margin: 0;
+}
+
+button {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: #0dc400;
+    color: white;
+    width: 20vh;
+    height: 3vh;
+    border-radius: 0.5vh;
+    font-family: sans-serif;
+    font-size: 1.8vh;
+}
+
+button:hover {
+    background-color: #0a9900;
+}
+
+.models_btn {
+    position: relative;
+    left: 4vh;
+}
+
+.discord_btn {
+    background-color: #0099ff;
+    position: relative;
+    left: 4vh;
+}
+
+.discord_btn:hover {
+    background-color: #007acc;
+}
+
+.main_frm {
+    width: 202.7vh;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
